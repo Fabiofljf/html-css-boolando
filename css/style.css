@@ -50,11 +50,17 @@
     position: absolute;
     top: 20px;
     right: 0px;
+
+}
+
+.hearts{
+    font-size: 30px;
+    line-height: 50px;
 }
 
 .container_sales{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 20px;
     background-color: var(--style_color_cont_sales);
     position: absolute;
     bottom: 20px;
@@ -63,12 +69,12 @@
 }
 
 .container_text{
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 20px;
     background-color: var(--style_color_cont_text);
     position: absolute;
     bottom: 20px;
-    left: 50px;
+    left: 43px;
     color: var(--style_color_text_cont)
 }
 
