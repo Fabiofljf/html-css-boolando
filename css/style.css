@@ -6,15 +6,27 @@
 }
 
 :root{
-    --style_color_principal:
+    --style_color_principal: white;
+    --style_color_img: #E7E7E7;
+    --style_color_cont_xs: #FFFFFF;
+    --style_color_cont_sales: #EB0037;
+    --style_color_cont_text: #00875A;
+    --style_color_text_cont: white;
+    --style_color_text_brand: #ababab;
+    --style_color_text_description: black;
+    --style_color_text_prices: black;
+    --style_color_text__sales_prices: red;
      
 }
 
 /******* header ******/
+
+
+/******* main ******/
+
 #container_big{
-    background-color: #a52a2a;
+    background-color: var(--style_color_principal);
     text-align: center;
-    
 }
 
 .container_small{
@@ -28,12 +40,13 @@
 
 .container_small img{
     height: 100%;
+    background-color: var(--style_color_img);
 }
 
 .container_xs{
     width: 50px;
     height: 50px;
-    background-color: red;
+    background-color: var(--style_color_cont_xs);
     position: absolute;
     top: 20px;
     right: 0px;
@@ -42,34 +55,40 @@
 .container_sales{
     width: 50px;
     height: 50px;
-    background-color: red;
+    background-color: var(--style_color_cont_sales);
     position: absolute;
     bottom: 20px;
     left: 0px;
+    color: var(--style_color_text_cont)
 }
 
 .container_text{
     width: 50px;
     height: 50px;
-    background-color: rgb(45, 119, 30);
+    background-color: var(--style_color_cont_text);
     position: absolute;
     bottom: 20px;
     left: 50px;
+    color: var(--style_color_text_cont)
 }
 
 .brand_text{
     text-align: left;
+    color: var(--style_color_text_brand)
 }
 
 .description_text{
     text-align: left;
+    color: var(--style_color_text_description)
 }
 
 .prices_text{
     text-align: left;
+    color: var(--style_color_text_prices);
 }
 
-/******* main ******/
-
+.sales_price{
+    color: var(--style_color_text__sales_prices)
+}
 
 /******* footer ******/
