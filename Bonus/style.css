@@ -6,9 +6,10 @@
 }
 
 :root{
-    --style_color_principal: white;
+    --style_color_barra_header: #001534;
+    --style_color_principal: rgb(134, 155, 193);
     --style_color_img: #E7E7E7;
-    --style_color_cont_xs: #FFFFFF;
+    --style_color_cont_xs: #d22929;
     --style_color_cont_sales: #EB0037;
     --style_color_cont_text: #00875A;
     --style_color_text_cont: white;
@@ -20,6 +21,21 @@
 }
 
 /******* header ******/
+#site_header{
+    background-color: var(--style_color_barra_header);
+    height: 300px;
+}
+
+#logo img{
+    width: 300px;
+    height: 300px;
+}
+
+#testodiguida{
+    font-size: 10rem;
+    vertical-align: 100px;
+    color: white;
+}
 
 
 /******* main ******/
@@ -27,7 +43,7 @@
 #container_big{
     background-color: var(--style_color_principal);
     text-align: center;
-    padding: 5rem;
+    margin-top: 10rem;
 }
 
 .container_small{
@@ -85,6 +101,7 @@
 .hearts{
     font-size: 30px;
     line-height: 50px;
+    color: white;
 }
 
 .container_sales{
